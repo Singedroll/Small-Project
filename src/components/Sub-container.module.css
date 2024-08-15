@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2%;
+  background-color: #c2e6f5;
+  padding: 40px;
+}
+.input_holder {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
