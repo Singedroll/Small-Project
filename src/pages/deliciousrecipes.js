@@ -37,4 +37,7 @@ const data = [
 
 export default function RecipesPage() {
   const { text } = recipes;
+  return (
+    
+  )
 }
