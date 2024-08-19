@@ -1,3 +1,3 @@
 import styles from "../components/Recipe-Input.module.css";
 
-export 
+export function Recipe() {}
