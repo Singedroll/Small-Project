@@ -5,15 +5,11 @@
   "scripts": {
     "dev": "react-scripts start",
     "build": "react-scripts build",
-    "start": "react-scripts start",
-    "lint": "eslint ."
+    "start": "react-scripts start"
   },
   "dependencies": {
     "react": "^18",
     "react-dom": "^18",
-    "react-scripts": "^3.0.1"
-  },
-  "devDependencies": {
-    "eslint": "^8"
+    "react-scripts": "^5.0.1"
   }
 }
