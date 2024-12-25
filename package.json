@@ -3,10 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "start": "react-scripts start"
   },
   "dependencies": {
     "next": "^14.2.5",
