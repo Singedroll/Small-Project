@@ -129,7 +129,7 @@ const blog = () => {
   return (
     <div style={style.container}>
       {datas.map((data, index) => {
-        return <BlogPost title={data.title} body={data.body} />;
+        return <BlogPost key={index} title={data.title} body={data.body} />;
       })}
     </div>
   );

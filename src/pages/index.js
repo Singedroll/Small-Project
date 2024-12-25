@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "../components/Home.module.css";
 
 const Home = () => {
@@ -14,15 +15,15 @@ const Home = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <a href="/signup" className={styles.button}>
+      <Link href="/signup" className={styles.button}>
         <div>Link to Sign up and Subscribe</div>
-      </a>
-      <a href="/deliciousrecipes" className={styles.button}>
+      </Link>
+      <Link href="/deliciousrecipes" className={styles.button}>
         <div>Link to Delicious Recipes</div>
-      </a>
-      <a href="/catmap" className={styles.button}>
+      </Link>
+      <Link href="/catmap" className={styles.button}>
         <div>Link to Cat Map</div>
-      </a>
+      </Link>
     </div>
   );
 };
