@@ -129,7 +129,7 @@ const blog = () => {
   return (
     <div style={style.container}>
       {datas.map((data, index) => {
-        return <BlogPost title={data.title} body={data.body} />;
+        return <BlogPost key={index} title={data.title} body={data.body} />;
       })}
     </div>
   );
@@ -137,8 +137,13 @@ const blog = () => {
 const style = {
   container: {
     display: "flex",
-    width: "100%",
     flexWrap: "wrap",
+    width: "100%",
+    overflowY: "auto",
+    gap: "1rem",
+    padding: "1rem",
+    boxSizing: "border-box",
+    maxHeight: "100vh",
   },
 };
 export default blog;
