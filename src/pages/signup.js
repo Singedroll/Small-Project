@@ -11,7 +11,3 @@ export default function Signup() {
     />
   );
 }
-
-// const words = ["make", "shift", "progress", "push", "result"];
-
-// words.map((word, index) => console.log(word));

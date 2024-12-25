@@ -1,16 +1,30 @@
-import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
-import Container from "../components/Sub-container";
+import styles from "../components/Home.module.css";
 
-const inter = Inter({ subsets: ["latin"] });
-
-export default function Home() {
+const Home = () => {
   return (
-    <Container
-      title="SUBSCRIBE"
-      text="Sign up with your email address to receive news and updates"
-    />
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        height: "100vh",
+        backgroundImage: "url('/reactbg.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
+      <a href="/signup" className={styles.button}>
+        <div>Link to Sign up and Subscribe</div>
+      </a>
+      <a href="/deliciousrecipes" className={styles.button}>
+        <div>Link to Delicious Recipes</div>
+      </a>
+      <a href="/catmap" className={styles.button}>
+        <div>Link to Cat Map</div>
+      </a>
+    </div>
   );
-}
+};
+
+export default Home;
